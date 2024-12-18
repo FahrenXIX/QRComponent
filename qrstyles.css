@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Outfit:wght@100..900&family=Russo+One&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+#qrcode { 
+    width: 225px;
+    border-radius: 10px;
+}
+
+.qrcontainer { 
+    width: 225px; 
+    max-height: 425px;
+    background-color: #FFF; 
+    margin:auto; 
+    padding: 10px; 
+    border-radius: 15px;
+    position: relative;
+}
+
+.qrsubtitle {
+    text-align:center;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.qrtext {
+
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+body {
+    background-color: hsl(212, 45%, 89%);
+
+}
